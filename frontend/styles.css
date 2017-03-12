@@ -1,0 +1,150 @@
+body {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+
+html {
+	background: ;
+}
+
+div.adminbar {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 32px;
+
+	margin: 0;
+	padding: 0;
+	position: 0;
+	position: static;
+
+	direction: ltr;
+color: #ccc;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+height: 32px;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+min-width: 600px;
+z-index: 1;
+background: #23282d;
+}
+
+div.userbar {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 32px;
+
+	margin: 0;
+	padding: 0;
+	position: 0;
+	position: static;
+
+	direction: ltr;
+color: #ccc;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+height: 37px;
+position: fixed;
+top: 32px;
+left: 0;
+width: 100%;
+min-width: 600px;
+z-index: 0;
+background: #333;
+}
+
+table, tbody {
+
+	margin: 0;
+	padding: 0;
+	position: static;
+
+	height: 32px;
+	position: fixed;
+	top: 32px;
+}
+
+td {
+	vertical-align: top;
+}
+
+div#user-block {
+	position: absolute;
+	top: 32px;
+	right: 200px;
+}
+
+div#mana-block {
+
+	background: #33affa;
+}
+
+span {
+	font-family: arial, sans-serif;
+	cursor: pointer;
+	color: white;
+	text-shadow: 1px 1px 0 #888;
+	vertical-align: top;
+}
+
+div.header {
+	background: #AA911D;
+}
+
+
+
+div.content {
+	padding: 15px 30px 30px 30px;
+	min-height: 500px;
+	min-width: 910px;
+}
+
+.colmask {
+	position: relative;
+	clear: both;
+	float: left;
+	width: 100%;
+	background: red;
+}
+
+.col1, .col2, .col3, .col4 {
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+.fourcol .col2 {
+	width: 21%;
+	left: 4%;
+}
+
+.fourcol .col3 {
+	width: 21%;
+	left: 8%;
+}
+
+.fourcol .col4 {
+	width: 23%;
+	left: 12%;
+}
+.index-icon-container img {
+	margin-left: 0px;
+}
+
+.index-icon-container {
+	width: 213px;
+	text-align: left;
+}
+
+.index-icon-container a {
+	color: #429a03;
+	font-size: 22px;
+	display: block;
+}
+
+/*Экспериментирование с CSS разметкой*/
+footer {
+	height: 20px;
+	width: 600px;
+	margin: 0 auto;
+}
